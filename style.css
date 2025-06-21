@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #130101;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+h1 {
+  margin-bottom: 20px;
+}
+.choices {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+.choice-btn {
+  background: #444;
+  border: none;
+  color: #fff;
+  padding: 20px 30px;
+  font-size: 1.2em;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.choice-btn:hover {
+  background: #666;
+}
+.result, .score {
+  margin: 15px 0;
+  font-size: 1.2em;
+}
+.reset-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  background: #e74c3c;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.reset-btn:hover {
+  background: #c0392b;
+}
